@@ -41,3 +41,12 @@ git checkout -B nama_branch : membuat branch baru sekaligus langsung pindah
 git merge nama_branch : menggabungkan perubahan ke branch lain
 git branch -D nama_branch : menghapus branch
 git log --graph --branches : melihat history tiap branchnya
+remote repository :
+git remote add origin link_repository :menambahakan remote ke repository
+git remote add origin git@github.com:mashitaa/intro-to-git.git
+git push --set-upstream origin master: push branch sekaligus upstream,
+itu gasan memasukan 
+git pull : untuk mendapatkan update terbaru diremote repository
+tanpa menggabungkan perubahan ke local repository
+:membuat perubahan di local, ke remote repository
+pull request : digithub nya, ada tulisan pull request
